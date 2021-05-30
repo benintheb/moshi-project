@@ -11,7 +11,7 @@ export default function ControlRoot() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route component={PowerControl} path="/power" exact />
+        <Route component={PowerControl} path="/" exact />
         <Route component={ColorControl} path="/color" exact />
         <Route component={Logs} path="/log" exact />
       </Switch>
