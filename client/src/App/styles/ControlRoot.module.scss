@@ -1,0 +1,44 @@
+.wrapper {
+  height: 100%;
+  width: 100%;
+
+  .tabDiv {
+    .powerDiv {
+      display: flex;
+
+      .lightSwitch {
+        width: 50%;
+        height: 100%;
+
+        display: flex;
+        justify-content: center;
+
+        .lightIcon {
+          width: 80px;
+          height: 80px;
+
+          margin-top: 95px;
+
+          cursor: pointer;
+        }
+      }
+
+      .sensorSwitch {
+        width: 50%;
+        height: 100%;
+
+        display: flex;
+        justify-content: center;
+
+        .sensorIcon {
+          width: 80px;
+          height: 80px;
+
+          margin-top: 100px;
+
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

@@ -4,7 +4,7 @@ import ControlRoot from "./ControlRoot";
 
 import logo from "../img/lighthouse.png";
 
-import "./index.css";
+import "./styles/index.css";
 
 export default function App() {
   return (
