@@ -22,8 +22,8 @@ export default function ControlRoot() {
 
   const handleSensorClick = () => {
     isSensorOn
-      ? axios.post("localhost:5000/api/sensor/off")
-      : axios.post("localhost:5000/api/sensor/on");
+      ? axios.post("http://localhost:5000/api/sensor/off")
+      : axios.post("http://localhost:5000/api/sensor/on");
 
     setIsSensorOn(!isSensorOn);
   };
